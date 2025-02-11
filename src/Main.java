@@ -3,6 +3,33 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        int x;
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Please enter a number: ");
+        x = obj.nextInt();
+        while ((x < 1) || (x > 4)){
+            System.out.print("Pleas enter a number between 1 -4: ");
+            x = obj.nextInt();
+        }
+        System.out.println("end");
+
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+        /* Menu Assignment
+
         System.out.println("Choose from the following:");
         System.out.println("Option 1");
         System.out.println("Option 2");
@@ -52,4 +79,6 @@ public class Main {
         }
     }
 }
+
+         */
 
